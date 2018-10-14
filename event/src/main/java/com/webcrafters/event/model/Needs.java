@@ -1,4 +1,4 @@
-package com.webcrafters.event.model;
+package com.sameep.event.model;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;

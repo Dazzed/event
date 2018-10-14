@@ -1,6 +1,6 @@
-package com.webcrafters.event.service;
+package com.sameep.event.service;
 
-import com.webcrafters.event.model.Events;
+import com.sameep.event.model.Events;
 
 public interface EventService {
 	public void save(Events event);

@@ -1,4 +1,4 @@
-package com.webcrafters.event.config;
+package com.sameep.event.config;
 
 import static springfox.documentation.builders.PathSelectors.regex;
 
@@ -16,7 +16,7 @@ public class SwaggerConfig {
 	@Bean
 	public Docket productApi() {
 		return new Docket(DocumentationType.SWAGGER_2).select()
-				.apis(RequestHandlerSelectors.basePackage("com.webcrafters.event.controller"))
+				.apis(RequestHandlerSelectors.basePackage("com.sameep.event.controller"))
 				.paths(regex("/events.*")).build();
 	}
 }

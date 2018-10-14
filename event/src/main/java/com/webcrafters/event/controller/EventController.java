@@ -1,4 +1,4 @@
-package com.webcrafters.event.controller;
+package com.sameep.event.controller;
 
 import java.net.URI;
 
@@ -11,8 +11,8 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.servlet.support.ServletUriComponentsBuilder;
 
-import com.webcrafters.event.model.Events;
-import com.webcrafters.event.service.EventService;
+import com.sameep.event.model.Events;
+import com.sameep.event.service.EventService;
 
 @RestController
 public class EventController {

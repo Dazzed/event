@@ -1,10 +1,10 @@
-package com.webcrafters.event.service;
+package com.sameep.event.service;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.webcrafters.event.model.Events;
-import com.webcrafters.event.repository.EventsRepository;
+import com.sameep.event.model.Events;
+import com.sameep.event.repository.EventsRepository;
 
 @Service
 public class EventServiceImpl implements EventService {

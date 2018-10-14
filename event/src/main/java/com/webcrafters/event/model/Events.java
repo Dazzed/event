@@ -1,4 +1,4 @@
-package com.webcrafters.event.model;
+package com.sameep.event.model;
 
 import javax.persistence.CascadeType;
 import javax.persistence.Entity;
